@@ -16,6 +16,10 @@ Turn the moment someone doesn't know what to do with their life into a documente
 - Grief from abandoned paths subtly influences narrative of remaining active paths (Validated in Phase 3: grief-system-archive)
 - All abandoned paths are stored in a session grief archive (localStorage) (Validated in Phase 3: grief-system-archive)
 - Grief archive view shows all abandoned paths this session (Validated in Phase 3: grief-system-archive)
+- UI: Vietnamese lacquerware aesthetic — paper texture, altar scroll, incense smoke SVG connectors, ash-state transitions, gold accents (Validated in Phase 4: ui-polish-demo-hardening)
+- Claude API fallback: 8s timeout + silent pre-generated content load from fallback-demo.json (Validated in Phase 4: ui-polish-demo-hardening)
+- ?reset URL clears all session state and returns to input form (Validated in Phase 4: ui-polish-demo-hardening)
+- Demo birthday 1990-03-21 produces compelling named-star profile (Thất Sát risk, Tham Lang relational, Tử Vi ambition) (Validated in Phase 4: ui-polish-demo-hardening)
 
 ### Active
 
@@ -24,7 +28,6 @@ Turn the moment someone doesn't know what to do with their life into a documente
 - [ ] Chart produces a psychological profile: dominant palace, risk star, relational pattern, ambition structure
 - [ ] Claude generates three divergent path timelines from the profile + decision, each representing an archetypal tension (duty, desire, transformation)
 - [ ] Each path is an interactive node tree — clicking a node generates the next prediction, max 5 nodes deep
-- [ ] UI: Vietnamese lacquerware aesthetic — deep red, gold, black, paper texture, altar scroll layout, incense smoke node branching, abandoned paths fade to ash, chosen path stays gold
 
 ### Out of Scope
 
@@ -83,4 +86,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-03-28 after Phase 3 completion*
+*Last updated: 2026-03-28 after Phase 4 completion — all 4 phases complete, V1 demo-ready*
