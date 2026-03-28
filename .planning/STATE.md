@@ -62,6 +62,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 03-grief-system-archive P02 | 1 | 1 tasks | 1 files |
 | Phase 03-grief-system-archive P03 | 30 | 2 tasks | 1 files |
 | Phase 04-ui-polish-demo-hardening P01 | 5 | 2 tasks | 3 files |
+| Phase 04-ui-polish-demo-hardening P02 | 6 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -96,6 +97,8 @@ Recent decisions affecting current work:
 - [Phase 03-grief-system-archive]: GriefArchiveSidebar placed as direct flex sibling to the column grid wrapper using flex-1 min-w-0 inner pattern
 - [Phase 04-ui-polish-demo-hardening]: Per-element ash transitions replace flat opacity-40 wrapper on abandoned PathColumn paths — header, depth dots, and node borders each fade independently to ash tokens
 - [Phase 04-ui-polish-demo-hardening]: SVG feTurbulence data URI for paper grain texture on body — no external image file needed
+- [Phase 04-ui-polish-demo-hardening]: PathConnectors placed inside flex-1 min-w-0 wrapper above column grid to align SVG coordinate system with three columns
+- [Phase 04-ui-polish-demo-hardening]: ResetHandler is a separate named component in page.tsx — required by Next.js 14 Suspense/useSearchParams boundary rule
 
 ### Pending Todos
 
@@ -107,6 +110,6 @@ None — D-13 gate cleared (chart verified against reference by user). Phase 2 m
 
 ## Session Continuity
 
-Last session: 2026-03-28T18:28:58.597Z
-Stopped at: Completed 04-01-PLAN.md
+Last session: 2026-03-28T18:31:03Z
+Stopped at: Completed 04-02-PLAN.md
 Resume file: None
