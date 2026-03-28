@@ -13,8 +13,11 @@ describe('hourToGioIndex', () => {
     expect(hourToGioIndex(23)).toBe(0);
   });
 
-  it('Test 5: hour 1 → Giờ Tý (index 0) — still Tý (23:00–00:59)', () => {
-    expect(hourToGioIndex(1)).toBe(0);
+  it('Test 5: hour 1 → Giờ Sửu (index 1) — Tý ends at 00:59, Sửu starts at 01:00', () => {
+    // Tý spans 23:00–00:59; hour 1 (01:00) falls in Sửu (01:00–02:59)
+    // Formula: (1+1)%24 / 2 = 2/2 = 1 (Sửu)
+    // Note: Plan spec said 0 but that would require Tý to span 3 hours — incorrect
+    expect(hourToGioIndex(1)).toBe(1);
   });
 
   it('hour 0 → Giờ Tý (index 0)', () => {
