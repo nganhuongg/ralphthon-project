@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-foundation-t-vi-engine plan 01-02
-last_updated: "2026-03-28T11:27:36.661Z"
+stopped_at: "Checkpoint: 01-04 Task 3 — human-verify chart rendering and D-13 reference check"
+last_updated: "2026-03-28T11:32:20.472Z"
 last_activity: 2026-03-28
 progress:
   total_phases: 4
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 4
-  completed_plans: 3
+  completed_plans: 4
   percent: 0
 ---
 
@@ -55,6 +55,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 01-foundation-t-vi-engine P01 | 5 | 3 tasks | 11 files |
 | Phase 01-foundation-t-vi-engine P03 | 2 | 2 tasks | 3 files |
 | Phase 01 P02 | 30 | 2 tasks | 7 files |
+| Phase 01-foundation-t-vi-engine P04 | 3 | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -74,6 +75,8 @@ Recent decisions affecting current work:
 - [Phase 01-foundation-t-vi-engine]: Birth hour field uses HTML type=time (HH:MM); empty -> null -> calculation engine applies noon hour default silently (D-01, D-02)
 - [Phase 01]: @dqcai/vn-lunar uses lunarDate.leap not isLeapMonth — adapter normalizes field name
 - [Phase 01]: hourToGioIndex(1) returns 1 (Sửu) not 0 — Tý spans only 23:00-00:59; plan spec was incorrect
+- [Phase 01-foundation-t-vi-engine]: CSS grid inline style for 4x4 palace layout — no D3 or layout library
+- [Phase 01-foundation-t-vi-engine]: PsychProfile renders profile prose strings directly — raw star names never appear in JSX
 
 ### Pending Todos
 
@@ -86,6 +89,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-28T11:27:36.659Z
-Stopped at: Completed 01-foundation-t-vi-engine plan 01-02
+Last session: 2026-03-28T11:32:20.470Z
+Stopped at: Checkpoint: 01-04 Task 3 — human-verify chart rendering and D-13 reference check
 Resume file: None

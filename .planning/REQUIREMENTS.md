@@ -14,18 +14,18 @@
 
 ### Chart Calculation
 
-- [ ] **CHART-01**: System converts Gregorian birthday to Vietnamese lunar calendar date (algorithmically exact — Hồ Ngọc Đức algorithm or equivalent)
-- [ ] **CHART-02**: System derives Can Chi (heavenly stem + earthly branch) for year, month, day, and hour of birth
-- [ ] **CHART-03**: System places all 14 main stars (Tử Vi, Thiên Phủ, and the 12 satellite stars) across 12 palaces
+- [x] **CHART-01**: System converts Gregorian birthday to Vietnamese lunar calendar date (algorithmically exact — Hồ Ngọc Đức algorithm or equivalent)
+- [x] **CHART-02**: System derives Can Chi (heavenly stem + earthly branch) for year, month, day, and hour of birth
+- [x] **CHART-03**: System places all 14 main stars (Tử Vi, Thiên Phủ, and the 12 satellite stars) across 12 palaces
 - [x] **CHART-04**: Chart output is a typed data structure (TuViChart) used as input to profile extraction and Claude
 
 ### Psychological Profile
 
-- [ ] **PROF-01**: System extracts dominant palace from the chart (palace with highest-weight star cluster)
-- [ ] **PROF-02**: System identifies risk star (primary challenging star in the chart)
-- [ ] **PROF-03**: System derives relational pattern (how the chart describes interpersonal tendencies)
-- [ ] **PROF-04**: System derives ambition structure (how the chart describes drive and career orientation)
-- [ ] **PROF-05**: Psychological profile is displayed to user before paths are generated
+- [x] **PROF-01**: System extracts dominant palace from the chart (palace with highest-weight star cluster)
+- [x] **PROF-02**: System identifies risk star (primary challenging star in the chart)
+- [x] **PROF-03**: System derives relational pattern (how the chart describes interpersonal tendencies)
+- [x] **PROF-04**: System derives ambition structure (how the chart describes drive and career orientation)
+- [x] **PROF-05**: Psychological profile is displayed to user before paths are generated
 
 ### Path Generation
 
@@ -119,15 +119,15 @@
 | INPUT-02 | Phase 1 | Complete |
 | INPUT-03 | Phase 1 | Complete |
 | INPUT-04 | Phase 1 | Complete |
-| CHART-01 | Phase 1 | Pending |
-| CHART-02 | Phase 1 | Pending |
-| CHART-03 | Phase 1 | Pending |
+| CHART-01 | Phase 1 | Complete |
+| CHART-02 | Phase 1 | Complete |
+| CHART-03 | Phase 1 | Complete |
 | CHART-04 | Phase 1 | Complete |
-| PROF-01 | Phase 1 | Pending |
-| PROF-02 | Phase 1 | Pending |
-| PROF-03 | Phase 1 | Pending |
-| PROF-04 | Phase 1 | Pending |
-| PROF-05 | Phase 1 | Pending |
+| PROF-01 | Phase 1 | Complete |
+| PROF-02 | Phase 1 | Complete |
+| PROF-03 | Phase 1 | Complete |
+| PROF-04 | Phase 1 | Complete |
+| PROF-05 | Phase 1 | Complete |
 | PATH-01 | Phase 2 | Pending |
 | PATH-02 | Phase 2 | Pending |
 | PATH-03 | Phase 2 | Pending |

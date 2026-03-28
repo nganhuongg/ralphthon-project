@@ -12,7 +12,7 @@ Verse is built in four phases that mirror its technical dependency chain. The T�
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation + Tử Vi Engine** - Project scaffolding, TypeScript types, Zustand store shape, and the full Tử Vi calculation engine producing a verified chart output
+- [x] **Phase 1: Foundation + Tử Vi Engine** - Project scaffolding, TypeScript types, Zustand store shape, and the full Tử Vi calculation engine producing a verified chart output (completed 2026-03-28)
 - [ ] **Phase 2: Claude Integration + Path Generation** - Vercel AI SDK streaming wired to chart types, three archetypal path trees generated and interactable node-by-node
 - [ ] **Phase 3: Grief System + Archive** - Grief interview overlay, abandoned path persistence, grief context feeding back into remaining path generation, archive view
 - [ ] **Phase 4: UI Polish + Demo Hardening** - Full lacquerware aesthetic, incense smoke animations, ash fade, pre-generated fallback, reset URL, 1280×800 verification
@@ -33,7 +33,7 @@ Plans:
 - [x] 01-01-PLAN.md — Next.js 14 scaffold, TypeScript types contract, Zustand store (Wave 1)
 - [x] 01-02-PLAN.md — Tử Vi calculation engine: lunar bridge, palace builder, star placer (Wave 2)
 - [x] 01-03-PLAN.md — Input form with Zod v4 validation (Wave 2, parallel to 01-02)
-- [ ] 01-04-PLAN.md — Chart display (4×4 grid) and psychological profile card (Wave 3)
+- [x] 01-04-PLAN.md — Chart display (4×4 grid) and psychological profile card (Wave 3)
 **UI hint**: yes
 
 ### Phase 2: Claude Integration + Path Generation
@@ -81,7 +81,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation + Tử Vi Engine | 3/4 | In Progress|  |
+| 1. Foundation + Tử Vi Engine | 4/4 | Complete   | 2026-03-28 |
 | 2. Claude Integration + Path Generation | 0/? | Not started | - |
 | 3. Grief System + Archive | 0/? | Not started | - |
 | 4. UI Polish + Demo Hardening | 0/? | Not started | - |
