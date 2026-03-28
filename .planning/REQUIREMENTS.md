@@ -73,8 +73,8 @@
 
 - [ ] **DEMO-01**: Pre-generated fallback JSON exists for a known "demo birthday" (loads silently if Claude API fails)
 - [ ] **DEMO-02**: `?reset` URL parameter clears session state and returns to input screen
-- [ ] **DEMO-03**: App is tested and verified at 1280×800 resolution (projector standard)
-- [ ] **DEMO-04**: Demo birthday is selected and vetted to produce a compelling psychological profile
+- [x] **DEMO-03**: App is tested and verified at 1280×800 resolution (projector standard)
+- [x] **DEMO-04**: Demo birthday is selected and vetted to produce a compelling psychological profile
 
 ## v2 Requirements
 
@@ -157,8 +157,8 @@
 | UI-07 | Phase 4 | Complete |
 | DEMO-01 | Phase 4 | Pending |
 | DEMO-02 | Phase 4 | Pending |
-| DEMO-03 | Phase 4 | Pending |
-| DEMO-04 | Phase 4 | Pending |
+| DEMO-03 | Phase 4 | Complete |
+| DEMO-04 | Phase 4 | Complete |
 
 **Coverage:**
 - v1 requirements: 42 total
