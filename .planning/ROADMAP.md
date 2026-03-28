@@ -66,7 +66,7 @@ Plans:
 **Plans**: 3 plans
 Plans:
 - [x] 03-01-PLAN.md — GriefInterviewOverlay + PathColumn abandon wiring (Wave 1)
-- [ ] 03-02-PLAN.md — GriefArchiveSidebar component (Wave 1, parallel)
+- [x] 03-02-PLAN.md — GriefArchiveSidebar component (Wave 1, parallel)
 - [ ] 03-03-PLAN.md — PathTreeView wiring + end-to-end checkpoint (Wave 2)
 
 ### Phase 4: UI Polish + Demo Hardening
@@ -91,5 +91,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|----------------|--------|-----------|
 | 1. Foundation + Tử Vi Engine | 4/4 | Complete   | 2026-03-28 |
 | 2. Claude Integration + Path Generation | 2/3 | Complete    | 2026-03-28 |
-| 3. Grief System + Archive | 1/3 | In Progress|  |
+| 3. Grief System + Archive | 2/3 | In Progress|  |
 | 4. UI Polish + Demo Hardening | 0/? | Not started | - |
