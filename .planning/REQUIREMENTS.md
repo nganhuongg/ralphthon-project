@@ -37,20 +37,20 @@
 
 ### Node Tree Interaction
 
-- [ ] **NODE-01**: User can click a node to generate the next prediction on that path
-- [ ] **NODE-02**: Node generation streams from Claude (progressive text reveal)
-- [ ] **NODE-03**: Each path supports a maximum of 5 nodes deep
-- [ ] **NODE-04**: User can see which node they are currently on (visual depth indicator)
-- [ ] **NODE-05**: User can abandon a path at any node depth
+- [x] **NODE-01**: User can click a node to generate the next prediction on that path
+- [x] **NODE-02**: Node generation streams from Claude (progressive text reveal)
+- [x] **NODE-03**: Each path supports a maximum of 5 nodes deep
+- [x] **NODE-04**: User can see which node they are currently on (visual depth indicator)
+- [x] **NODE-05**: User can abandon a path at any node depth
 
 ### Grief System
 
-- [ ] **GRIEF-01**: Abandoning a path triggers a grief interview overlay
-- [ ] **GRIEF-02**: Grief interview asks exactly 3 questions (Claude-generated, conversational register — not therapeutic)
-- [ ] **GRIEF-03**: Grief interview questions are: what are you letting go of, what does that cost you, what do you now know
-- [ ] **GRIEF-04**: User answers are stored with the abandoned path in localStorage
-- [ ] **GRIEF-05**: Abandoned path visually fades to ash (animation)
-- [ ] **GRIEF-06**: Grief responses are passed as context to future node generations on remaining active paths
+- [x] **GRIEF-01**: Abandoning a path triggers a grief interview overlay
+- [x] **GRIEF-02**: Grief interview asks exactly 3 questions (Claude-generated, conversational register — not therapeutic)
+- [x] **GRIEF-03**: Grief interview questions are: what are you letting go of, what does that cost you, what do you now know
+- [x] **GRIEF-04**: User answers are stored with the abandoned path in localStorage
+- [x] **GRIEF-05**: Abandoned path visually fades to ash (animation)
+- [x] **GRIEF-06**: Grief responses are passed as context to future node generations on remaining active paths
 
 ### Grief Archive
 
@@ -133,17 +133,17 @@
 | PATH-03 | Phase 2 | Complete |
 | PATH-04 | Phase 2 | Complete |
 | PATH-05 | Phase 2 | Complete |
-| NODE-01 | Phase 2 | Pending |
-| NODE-02 | Phase 2 | Pending |
-| NODE-03 | Phase 2 | Pending |
-| NODE-04 | Phase 2 | Pending |
-| NODE-05 | Phase 2 | Pending |
-| GRIEF-01 | Phase 3 | Pending |
-| GRIEF-02 | Phase 3 | Pending |
-| GRIEF-03 | Phase 3 | Pending |
-| GRIEF-04 | Phase 3 | Pending |
-| GRIEF-05 | Phase 3 | Pending |
-| GRIEF-06 | Phase 3 | Pending |
+| NODE-01 | Phase 2 | Complete |
+| NODE-02 | Phase 2 | Complete |
+| NODE-03 | Phase 2 | Complete |
+| NODE-04 | Phase 2 | Complete |
+| NODE-05 | Phase 2 | Complete |
+| GRIEF-01 | Phase 3 | Complete |
+| GRIEF-02 | Phase 3 | Complete |
+| GRIEF-03 | Phase 3 | Complete |
+| GRIEF-04 | Phase 3 | Complete |
+| GRIEF-05 | Phase 3 | Complete |
+| GRIEF-06 | Phase 3 | Complete |
 | ARCH-01 | Phase 3 | Pending |
 | ARCH-02 | Phase 3 | Pending |
 | ARCH-03 | Phase 3 | Pending |
