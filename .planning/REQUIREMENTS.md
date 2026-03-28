@@ -55,9 +55,9 @@
 ### Grief Archive
 
 - [x] **ARCH-01**: Grief archive view is accessible during the session
-- [ ] **ARCH-02**: Archive displays all abandoned paths with their grief interview answers
-- [ ] **ARCH-03**: Archive data persists in localStorage across page refreshes within the session
-- [ ] **ARCH-04**: localStorage schema is versioned (version: 1) for future compatibility
+- [x] **ARCH-02**: Archive displays all abandoned paths with their grief interview answers
+- [x] **ARCH-03**: Archive data persists in localStorage across page refreshes within the session
+- [x] **ARCH-04**: localStorage schema is versioned (version: 1) for future compatibility
 
 ### UI & Aesthetic
 
@@ -145,9 +145,9 @@
 | GRIEF-05 | Phase 3 | Complete |
 | GRIEF-06 | Phase 3 | Complete |
 | ARCH-01 | Phase 3 | Complete |
-| ARCH-02 | Phase 3 | Pending |
-| ARCH-03 | Phase 3 | Pending |
-| ARCH-04 | Phase 3 | Pending |
+| ARCH-02 | Phase 3 | Complete |
+| ARCH-03 | Phase 3 | Complete |
+| ARCH-04 | Phase 3 | Complete |
 | UI-01 | Phase 4 | Pending |
 | UI-02 | Phase 4 | Pending |
 | UI-03 | Phase 4 | Pending |
