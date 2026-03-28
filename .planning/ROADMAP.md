@@ -79,7 +79,11 @@ Plans:
   3. If the Claude API fails or times out, the app silently loads pre-generated fallback JSON for the demo birthday and the experience continues without a broken state
   4. Navigating to `?reset` clears all session state and returns the user to the input screen
   5. A specific demo birthday has been selected and verified to produce a compelling psychological profile with strong archetypal path contrasts
-**Plans**: TBD
+**Plans**: 3 plans
+Plans:
+- [ ] 04-01-PLAN.md — Paper texture, altar scroll glow, PathColumn ash-state transitions (Wave 1)
+- [ ] 04-02-PLAN.md — SVG incense smoke connectors, API fallback hardening, ?reset handler (Wave 1, parallel)
+- [ ] 04-03-PLAN.md — Demo birthday vetting + 1280×800 human verification checkpoint (Wave 2)
 **UI hint**: yes
 
 ## Progress
@@ -92,4 +96,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | 1. Foundation + Tử Vi Engine | 4/4 | Complete   | 2026-03-28 |
 | 2. Claude Integration + Path Generation | 2/3 | Complete    | 2026-03-28 |
 | 3. Grief System + Archive | 2/3 | In Progress|  |
-| 4. UI Polish + Demo Hardening | 0/? | Not started | - |
+| 4. UI Polish + Demo Hardening | 0/3 | Not started | - |
