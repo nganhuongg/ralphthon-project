@@ -120,6 +120,13 @@ None - no external service configuration required.
 - D-13 gate cleared: user verified chart renders correctly and validated star placement against reference chart
 - Phase 2 (Claude integration) can begin immediately — chart and profile data contract is confirmed correct
 
+## Self-Check: PASSED
+
+- SUMMARY.md: FOUND at `.planning/phases/01-foundation-t-vi-engine/01-04-SUMMARY.md`
+- Commit `3bf85a4`: FOUND (Task 1 — ChartDisplay components)
+- Commit `de06f26`: FOUND (Task 2 — PsychProfile + page wiring)
+- Commit `e687dd7`: FOUND (D-13 gate approval + STATE.md update)
+
 ---
 *Phase: 01-foundation-t-vi-engine*
 *Completed: 2026-03-28*
