@@ -23,6 +23,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-verse-black font-verse text-verse-paper">
         {/* Altar scroll container — Phase 4 adds paper texture and full polish */}
         <main className="mx-auto max-w-5xl px-4 py-8">
+          <div className="border-b border-verse-gold/20 mb-8" />
           {children}
         </main>
       </body>
