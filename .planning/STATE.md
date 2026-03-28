@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: verifying
-stopped_at: Completed 03-03-PLAN.md — Phase 3 grief system fully verified and complete
-last_updated: "2026-03-28T17:43:23.844Z"
+status: executing
+stopped_at: Completed 04-01-PLAN.md
+last_updated: "2026-03-28T18:28:58.600Z"
 last_activity: 2026-03-28
 progress:
   total_phases: 4
   completed_phases: 3
-  total_plans: 10
-  completed_plans: 10
+  total_plans: 13
+  completed_plans: 11
   percent: 0
 ---
 
@@ -21,13 +21,13 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-28)
 
 **Core value:** Turn the moment someone doesn't know what to do with their life into a documented map of who they chose not to become.
-**Current focus:** Phase 03 — grief-system-archive
+**Current focus:** Phase 04 — ui-polish-demo-hardening
 
 ## Current Position
 
-Phase: 4
-Plan: Not started
-Status: Phase complete — ready for verification
+Phase: 04 (ui-polish-demo-hardening) — EXECUTING
+Plan: 2 of 3
+Status: Ready to execute
 Last activity: 2026-03-28
 
 Progress: [░░░░░░░░░░] 0%
@@ -61,6 +61,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 03-grief-system-archive P01 | 3 | 2 tasks | 3 files |
 | Phase 03-grief-system-archive P02 | 1 | 1 tasks | 1 files |
 | Phase 03-grief-system-archive P03 | 30 | 2 tasks | 1 files |
+| Phase 04-ui-polish-demo-hardening P01 | 5 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -93,6 +94,8 @@ Recent decisions affecting current work:
 - [Phase 03-grief-system-archive]: GriefInterviewOverlay rendered outside flex container as JSX fragment sibling — fixed-position overlay has no layout impact
 - [Phase 03-grief-system-archive]: GriefInterviewOverlay rendered as JSX fragment sibling outside flex container — fixed-position overlay (z-50) has zero layout impact
 - [Phase 03-grief-system-archive]: GriefArchiveSidebar placed as direct flex sibling to the column grid wrapper using flex-1 min-w-0 inner pattern
+- [Phase 04-ui-polish-demo-hardening]: Per-element ash transitions replace flat opacity-40 wrapper on abandoned PathColumn paths — header, depth dots, and node borders each fade independently to ash tokens
+- [Phase 04-ui-polish-demo-hardening]: SVG feTurbulence data URI for paper grain texture on body — no external image file needed
 
 ### Pending Todos
 
@@ -104,6 +107,6 @@ None — D-13 gate cleared (chart verified against reference by user). Phase 2 m
 
 ## Session Continuity
 
-Last session: 2026-03-28T17:31:48.086Z
-Stopped at: Completed 03-03-PLAN.md — Phase 3 grief system fully verified and complete
+Last session: 2026-03-28T18:28:58.597Z
+Stopped at: Completed 04-01-PLAN.md
 Resume file: None

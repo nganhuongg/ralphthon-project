@@ -61,13 +61,13 @@
 
 ### UI & Aesthetic
 
-- [ ] **UI-01**: Color palette: deep red (#8B1A1A or similar), gold (#C9A84C or similar), black — Vietnamese lacquerware
-- [ ] **UI-02**: Paper texture background (CSS or image overlay)
-- [ ] **UI-03**: Path tree renders as an altar scroll unrolling downward
+- [x] **UI-01**: Color palette: deep red (#8B1A1A or similar), gold (#C9A84C or similar), black — Vietnamese lacquerware
+- [x] **UI-02**: Paper texture background (CSS or image overlay)
+- [x] **UI-03**: Path tree renders as an altar scroll unrolling downward
 - [ ] **UI-04**: Node branching animates like incense smoke splitting (Framer Motion)
-- [ ] **UI-05**: Abandoned paths fade to ash color; active chosen path remains gold
-- [ ] **UI-06**: Typography uses Vietnamese diacritics and classical numeral styling
-- [ ] **UI-07**: UI tone is tender and grounded — not mystical, not gamified
+- [x] **UI-05**: Abandoned paths fade to ash color; active chosen path remains gold
+- [x] **UI-06**: Typography uses Vietnamese diacritics and classical numeral styling
+- [x] **UI-07**: UI tone is tender and grounded — not mystical, not gamified
 
 ### Demo Hardening
 
@@ -148,13 +148,13 @@
 | ARCH-02 | Phase 3 | Complete |
 | ARCH-03 | Phase 3 | Complete |
 | ARCH-04 | Phase 3 | Complete |
-| UI-01 | Phase 4 | Pending |
-| UI-02 | Phase 4 | Pending |
-| UI-03 | Phase 4 | Pending |
+| UI-01 | Phase 4 | Complete |
+| UI-02 | Phase 4 | Complete |
+| UI-03 | Phase 4 | Complete |
 | UI-04 | Phase 4 | Pending |
-| UI-05 | Phase 4 | Pending |
-| UI-06 | Phase 4 | Pending |
-| UI-07 | Phase 4 | Pending |
+| UI-05 | Phase 4 | Complete |
+| UI-06 | Phase 4 | Complete |
+| UI-07 | Phase 4 | Complete |
 | DEMO-01 | Phase 4 | Pending |
 | DEMO-02 | Phase 4 | Pending |
 | DEMO-03 | Phase 4 | Pending |
