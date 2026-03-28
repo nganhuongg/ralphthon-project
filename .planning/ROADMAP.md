@@ -46,7 +46,11 @@ Plans:
   3. A path cannot be expanded beyond 5 nodes deep — the expand control disappears or is disabled at depth 5
   4. User can see a visual indicator showing which depth they are at on any path
   5. User can trigger abandonment on any path at any node depth
-**Plans**: TBD
+**Plans**: 3 plans
+Plans:
+- [ ] 02-01-PLAN.md — generate-node streaming API route with grief context injection (Wave 1)
+- [ ] 02-02-PLAN.md — PathColumn and PathTreeView UI components (Wave 2)
+- [ ] 02-03-PLAN.md — Page wiring, parallel root generation, .env.local scaffold (Wave 3)
 **UI hint**: yes
 
 ### Phase 3: Grief System + Archive
@@ -82,6 +86,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation + Tử Vi Engine | 4/4 | Complete   | 2026-03-28 |
-| 2. Claude Integration + Path Generation | 0/? | Not started | - |
+| 2. Claude Integration + Path Generation | 0/3 | Not started | - |
 | 3. Grief System + Archive | 0/? | Not started | - |
 | 4. UI Polish + Demo Hardening | 0/? | Not started | - |
