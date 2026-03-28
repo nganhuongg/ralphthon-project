@@ -113,6 +113,21 @@ export default function PathTreeView({ chart }: PathTreeViewProps) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [transformationCompletion.isLoading, transformationCompletion.completion]);
 
+  // ── Fire parallel root node generation when chart first becomes available (D-04) ──
+  useEffect(() => {
+    if (!chart) return;
+    if ((paths['duty']?.nodes.length ?? 0) === 0) {
+      void handleExpand('duty');
+    }
+    if ((paths['desire']?.nodes.length ?? 0) === 0) {
+      void handleExpand('desire');
+    }
+    if ((paths['transformation']?.nodes.length ?? 0) === 0) {
+      void handleExpand('transformation');
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [chart]);
+
   // ── Render (D-13) ──────────────────────────────────────────────────────────
   return (
     <div className="w-full grid grid-cols-3 gap-6 mt-8">

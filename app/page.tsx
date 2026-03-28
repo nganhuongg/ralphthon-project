@@ -7,6 +7,7 @@
 import InputForm from '@/components/InputForm';
 import ChartDisplay from '@/components/ChartDisplay/ChartDisplay';
 import PsychProfile from '@/components/PsychProfile';
+import PathTreeView from '@/components/PathTreeView';
 import { useVerseStore } from '@/lib/store';
 import { calculateChart } from '@/lib/tuvi/index';
 import type { BirthInput } from '@/lib/tuvi/types';
@@ -62,7 +63,7 @@ export default function Home() {
         <div className="w-full flex flex-col items-center gap-8">
           <ChartDisplay chart={chart} />
           <PsychProfile profile={chart.profile} />
-          {/* Phase 2 will render path cards below this */}
+          <PathTreeView chart={chart} />
         </div>
       )}
 
