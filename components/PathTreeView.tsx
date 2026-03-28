@@ -9,6 +9,8 @@ import { useEffect, useRef } from 'react';
 import { useCompletion } from '@ai-sdk/react';
 import { useVerseStore } from '@/lib/store';
 import PathColumn from './PathColumn';
+import GriefInterviewOverlay from './GriefInterviewOverlay';
+import GriefArchiveSidebar from './GriefArchiveSidebar';
 import { nanoid } from 'nanoid';
 import type { TuViChart, PathId, PathNode } from '@/lib/tuvi/types';
 
@@ -130,28 +132,34 @@ export default function PathTreeView({ chart }: PathTreeViewProps) {
 
   // ── Render (D-13) ──────────────────────────────────────────────────────────
   return (
-    <div className="w-full grid grid-cols-3 gap-6 mt-8">
-      <PathColumn
-        pathId="duty"
-        label="Duty"
-        streamingContent={dutyCompletion.completion}
-        isStreaming={dutyCompletion.isLoading}
-        onExpand={() => handleExpand('duty')}
-      />
-      <PathColumn
-        pathId="desire"
-        label="Desire"
-        streamingContent={desireCompletion.completion}
-        isStreaming={desireCompletion.isLoading}
-        onExpand={() => handleExpand('desire')}
-      />
-      <PathColumn
-        pathId="transformation"
-        label="Transformation"
-        streamingContent={transformationCompletion.completion}
-        isStreaming={transformationCompletion.isLoading}
-        onExpand={() => handleExpand('transformation')}
-      />
-    </div>
+    <>
+      <GriefInterviewOverlay />
+      <div className="w-full flex gap-6 mt-8">
+        <div className="flex-1 grid grid-cols-3 gap-6 min-w-0">
+          <PathColumn
+            pathId="duty"
+            label="Duty"
+            streamingContent={dutyCompletion.completion}
+            isStreaming={dutyCompletion.isLoading}
+            onExpand={() => handleExpand('duty')}
+          />
+          <PathColumn
+            pathId="desire"
+            label="Desire"
+            streamingContent={desireCompletion.completion}
+            isStreaming={desireCompletion.isLoading}
+            onExpand={() => handleExpand('desire')}
+          />
+          <PathColumn
+            pathId="transformation"
+            label="Transformation"
+            streamingContent={transformationCompletion.completion}
+            isStreaming={transformationCompletion.isLoading}
+            onExpand={() => handleExpand('transformation')}
+          />
+        </div>
+        <GriefArchiveSidebar />
+      </div>
+    </>
   );
 }
