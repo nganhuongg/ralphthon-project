@@ -30,7 +30,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   4. A psychological profile card appears below the chart showing dominant palace, risk star, relational pattern, and ambition structure in synthesized prose (not raw star names)
 **Plans**: 4 plans
 Plans:
-- [ ] 01-01-PLAN.md — Next.js 14 scaffold, TypeScript types contract, Zustand store (Wave 1)
+- [x] 01-01-PLAN.md — Next.js 14 scaffold, TypeScript types contract, Zustand store (Wave 1)
 - [ ] 01-02-PLAN.md — Tử Vi calculation engine: lunar bridge, palace builder, star placer (Wave 2)
 - [ ] 01-03-PLAN.md — Input form with Zod v4 validation (Wave 2, parallel to 01-02)
 - [ ] 01-04-PLAN.md — Chart display (4×4 grid) and psychological profile card (Wave 3)

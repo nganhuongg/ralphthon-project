@@ -17,7 +17,7 @@
 - [ ] **CHART-01**: System converts Gregorian birthday to Vietnamese lunar calendar date (algorithmically exact — Hồ Ngọc Đức algorithm or equivalent)
 - [ ] **CHART-02**: System derives Can Chi (heavenly stem + earthly branch) for year, month, day, and hour of birth
 - [ ] **CHART-03**: System places all 14 main stars (Tử Vi, Thiên Phủ, and the 12 satellite stars) across 12 palaces
-- [ ] **CHART-04**: Chart output is a typed data structure (TuViChart) used as input to profile extraction and Claude
+- [x] **CHART-04**: Chart output is a typed data structure (TuViChart) used as input to profile extraction and Claude
 
 ### Psychological Profile
 
@@ -122,7 +122,7 @@
 | CHART-01 | Phase 1 | Pending |
 | CHART-02 | Phase 1 | Pending |
 | CHART-03 | Phase 1 | Pending |
-| CHART-04 | Phase 1 | Pending |
+| CHART-04 | Phase 1 | Complete |
 | PROF-01 | Phase 1 | Pending |
 | PROF-02 | Phase 1 | Pending |
 | PROF-03 | Phase 1 | Pending |
