@@ -34,18 +34,18 @@ export default function PathColumn({
   const currentDepth = pathState.nodes.length;
 
   return (
-    <div className={`flex flex-col ${pathState.isAbandoned ? 'opacity-40' : ''}`}>
+    <div className="flex flex-col">
       {/* Column header (D-13) */}
-      <h2 className="text-xs font-light tracking-[0.4em] uppercase text-verse-gold/70 mb-4">
+      <h2 className={`text-xs font-light tracking-[0.4em] uppercase mb-4 transition-colors duration-700 ${pathState.isAbandoned ? 'text-verse-ash/50' : 'text-verse-gold/70'}`}>
         {label}
       </h2>
 
       {/* Depth indicator (D-10) */}
-      <div className="flex gap-1.5 my-3">
+      <div className="flex gap-1.5 my-3 tabular-nums">
         {Array.from({ length: MAX_DEPTH }, (_, i) => (
           <span
             key={i}
-            className={i < currentDepth ? 'text-verse-gold' : 'text-verse-paper/30'}
+            className={`transition-colors duration-500 ${i < currentDepth ? (pathState.isAbandoned ? 'text-verse-ash/60' : 'text-verse-gold') : 'text-verse-paper/30'}`}
           >
             {i < currentDepth ? '●' : '○'}
           </span>
@@ -62,7 +62,7 @@ export default function PathColumn({
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.4 }}
-              className="border-l-2 border-verse-gold/30 pl-3"
+              className={`border-l-2 pl-3 transition-colors duration-700 ${pathState.isAbandoned ? 'border-verse-ash/20' : 'border-verse-gold/30'}`}
             >
               <p className="text-verse-paper/90 text-sm leading-relaxed">
                 {node.content}
