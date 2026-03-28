@@ -4,6 +4,8 @@
 // Root page — full Phase 1 flow:
 // InputForm → calculateChart (synchronous) → ChartDisplay + PsychProfile
 
+import { Suspense, useEffect } from 'react';
+import { useSearchParams, useRouter } from 'next/navigation';
 import InputForm from '@/components/InputForm';
 import ChartDisplay from '@/components/ChartDisplay/ChartDisplay';
 import PsychProfile from '@/components/PsychProfile';
@@ -11,6 +13,25 @@ import PathTreeView from '@/components/PathTreeView';
 import { useVerseStore } from '@/lib/store';
 import { calculateChart } from '@/lib/tuvi/index';
 import type { BirthInput } from '@/lib/tuvi/types';
+
+// CRITICAL: useSearchParams must be in a child component wrapped in <Suspense>
+// Placing it directly in the default export causes a Next.js 14 build error.
+function ResetHandler() {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const resetChart = useVerseStore((s) => s.resetChart);
+  const clearGriefArchive = useVerseStore((s) => s.clearGriefArchive);
+
+  useEffect(() => {
+    if (searchParams.has('reset')) {
+      resetChart();
+      clearGriefArchive(); // full clean slate — clears grief archive too (per UI-SPEC Copywriting Contract)
+      router.replace('/');
+    }
+  }, [searchParams, resetChart, clearGriefArchive, router]);
+
+  return null;
+}
 
 export default function Home() {
   const chart = useVerseStore((s) => s.chart);
@@ -35,6 +56,9 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center gap-10 pt-8 pb-16">
+      <Suspense fallback={null}>
+        <ResetHandler />
+      </Suspense>
 
       {/* Header */}
       <header className="text-center">
