@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-foundation-t-vi-engine plan 01-01
-last_updated: "2026-03-28T11:19:06.593Z"
+stopped_at: Completed 01-foundation-t-vi-engine plan 01-03
+last_updated: "2026-03-28T11:23:33.357Z"
 last_activity: 2026-03-28
 progress:
   total_phases: 4
   completed_phases: 0
   total_plans: 4
-  completed_plans: 1
+  completed_plans: 2
   percent: 0
 ---
 
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-03-28)
 ## Current Position
 
 Phase: 01 (foundation-t-vi-engine) — EXECUTING
-Plan: 2 of 4
+Plan: 3 of 4
 Status: Ready to execute
 Last activity: 2026-03-28
 
@@ -53,6 +53,7 @@ Progress: [░░░░░░░░░░] 0%
 
 *Updated after each plan completion*
 | Phase 01-foundation-t-vi-engine P01 | 5 | 3 tasks | 11 files |
+| Phase 01-foundation-t-vi-engine P03 | 2 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -68,6 +69,8 @@ Recent decisions affecting current work:
 - [Phase 01-foundation-t-vi-engine]: Scaffolded Next.js in /tmp then copied to project root due to non-empty directory constraint
 - [Phase 01-foundation-t-vi-engine]: noUncheckedIndexedAccess added to tsconfig beyond plan's strict:true for stronger type guarantees
 - [Phase 01-foundation-t-vi-engine]: All shared types in lib/tuvi/types.ts — no other project file, no circular deps
+- [Phase 01-foundation-t-vi-engine]: Zod v4 syntax enforced in form validation — error: param not message:, .issues not .errors
+- [Phase 01-foundation-t-vi-engine]: Birth hour field uses HTML type=time (HH:MM); empty -> null -> calculation engine applies noon hour default silently (D-01, D-02)
 
 ### Pending Todos
 
@@ -80,6 +83,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-28T11:19:06.591Z
-Stopped at: Completed 01-foundation-t-vi-engine plan 01-01
+Last session: 2026-03-28T11:23:33.355Z
+Stopped at: Completed 01-foundation-t-vi-engine plan 01-03
 Resume file: None

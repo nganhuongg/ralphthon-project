@@ -7,10 +7,10 @@
 
 ### Input
 
-- [ ] **INPUT-01**: User can enter date of birth (day, month, year)
-- [ ] **INPUT-02**: User can enter birthplace (city/region, used for timezone → birth hour derivation)
-- [ ] **INPUT-03**: User can enter one life decision they are currently stuck on (free text)
-- [ ] **INPUT-04**: Form validates inputs before chart calculation begins
+- [x] **INPUT-01**: User can enter date of birth (day, month, year)
+- [x] **INPUT-02**: User can enter birthplace (city/region, used for timezone → birth hour derivation)
+- [x] **INPUT-03**: User can enter one life decision they are currently stuck on (free text)
+- [x] **INPUT-04**: Form validates inputs before chart calculation begins
 
 ### Chart Calculation
 
@@ -115,10 +115,10 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| INPUT-01 | Phase 1 | Pending |
-| INPUT-02 | Phase 1 | Pending |
-| INPUT-03 | Phase 1 | Pending |
-| INPUT-04 | Phase 1 | Pending |
+| INPUT-01 | Phase 1 | Complete |
+| INPUT-02 | Phase 1 | Complete |
+| INPUT-03 | Phase 1 | Complete |
+| INPUT-04 | Phase 1 | Complete |
 | CHART-01 | Phase 1 | Pending |
 | CHART-02 | Phase 1 | Pending |
 | CHART-03 | Phase 1 | Pending |
