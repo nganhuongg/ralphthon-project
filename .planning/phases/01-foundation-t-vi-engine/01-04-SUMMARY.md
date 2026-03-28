@@ -65,7 +65,7 @@ completed: 2026-03-28
 - **Duration:** ~3 min
 - **Started:** 2026-03-28T11:29:14Z
 - **Completed:** 2026-03-28T11:31:18Z
-- **Tasks:** 2 auto tasks complete (Task 3 = human-verify checkpoint, pending)
+- **Tasks:** 3 (2 auto tasks + 1 human-verify checkpoint — D-13 gate approved)
 - **Files modified:** 5
 
 ## Accomplishments
@@ -81,6 +81,7 @@ Each task was committed atomically:
 
 1. **Task 1: Chart display — PalaceCell, PalaceGrid, ChartDisplay** - `3bf85a4` (feat)
 2. **Task 2: PsychProfile card and full form→chart→profile wiring** - `de06f26` (feat)
+3. **Task 3: Human verification — chart renders correctly and D-13 reference check** - checkpoint approved by user
 
 ## Files Created/Modified
 
@@ -116,9 +117,8 @@ None - no external service configuration required.
 ## Next Phase Readiness
 
 - Phase 1 loop is closed: form input → calculateChart → chart grid → profile card
-- Task 3 (human-verify checkpoint) requires manual D-13 reference chart validation before Phase 2 may begin
-- D-13 gate: star placement must be validated against https://tuvi.vn for a known birthday before Phase 2
-- Once checkpoint approved, Phase 2 (Claude integration) can begin immediately
+- D-13 gate cleared: user verified chart renders correctly and validated star placement against reference chart
+- Phase 2 (Claude integration) can begin immediately — chart and profile data contract is confirmed correct
 
 ---
 *Phase: 01-foundation-t-vi-engine*
