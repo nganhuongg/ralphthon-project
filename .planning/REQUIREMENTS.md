@@ -29,11 +29,11 @@
 
 ### Path Generation
 
-- [ ] **PATH-01**: Claude generates 3 divergent life path timelines from the psychological profile + life decision
-- [ ] **PATH-02**: Each path is labeled with an archetypal tension: Duty, Desire, or Transformation
-- [ ] **PATH-03**: Each path begins with a root prediction node (1-3 sentence foreshadowing)
-- [ ] **PATH-04**: Path generation uses Claude streaming (user sees text appear progressively)
-- [ ] **PATH-05**: Grief context from previously abandoned paths is passed to Claude when generating subsequent nodes on remaining paths
+- [x] **PATH-01**: Claude generates 3 divergent life path timelines from the psychological profile + life decision
+- [x] **PATH-02**: Each path is labeled with an archetypal tension: Duty, Desire, or Transformation
+- [x] **PATH-03**: Each path begins with a root prediction node (1-3 sentence foreshadowing)
+- [x] **PATH-04**: Path generation uses Claude streaming (user sees text appear progressively)
+- [x] **PATH-05**: Grief context from previously abandoned paths is passed to Claude when generating subsequent nodes on remaining paths
 
 ### Node Tree Interaction
 
@@ -128,11 +128,11 @@
 | PROF-03 | Phase 1 | Complete |
 | PROF-04 | Phase 1 | Complete |
 | PROF-05 | Phase 1 | Complete |
-| PATH-01 | Phase 2 | Pending |
-| PATH-02 | Phase 2 | Pending |
-| PATH-03 | Phase 2 | Pending |
-| PATH-04 | Phase 2 | Pending |
-| PATH-05 | Phase 2 | Pending |
+| PATH-01 | Phase 2 | Complete |
+| PATH-02 | Phase 2 | Complete |
+| PATH-03 | Phase 2 | Complete |
+| PATH-04 | Phase 2 | Complete |
+| PATH-05 | Phase 2 | Complete |
 | NODE-01 | Phase 2 | Pending |
 | NODE-02 | Phase 2 | Pending |
 | NODE-03 | Phase 2 | Pending |

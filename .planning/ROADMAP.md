@@ -48,7 +48,7 @@ Plans:
   5. User can trigger abandonment on any path at any node depth
 **Plans**: 3 plans
 Plans:
-- [ ] 02-01-PLAN.md — generate-node streaming API route with grief context injection (Wave 1)
+- [x] 02-01-PLAN.md — generate-node streaming API route with grief context injection (Wave 1)
 - [ ] 02-02-PLAN.md — PathColumn and PathTreeView UI components (Wave 2)
 - [ ] 02-03-PLAN.md — Page wiring, parallel root generation, .env.local scaffold (Wave 3)
 **UI hint**: yes
