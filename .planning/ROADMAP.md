@@ -28,7 +28,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Submitting the form produces a rendered chart display showing 14 main stars placed across 12 palaces with heavenly stem and earthly branch annotations
   3. The chart output matches a known reference chart for at least one test birthday (verifiable by the developer against a trusted Tử Vi source)
   4. A psychological profile card appears below the chart showing dominant palace, risk star, relational pattern, and ambition structure in synthesized prose (not raw star names)
-**Plans**: TBD
+**Plans**: 4 plans
+Plans:
+- [ ] 01-01-PLAN.md — Next.js 14 scaffold, TypeScript types contract, Zustand store (Wave 1)
+- [ ] 01-02-PLAN.md — Tử Vi calculation engine: lunar bridge, palace builder, star placer (Wave 2)
+- [ ] 01-03-PLAN.md — Input form with Zod v4 validation (Wave 2, parallel to 01-02)
+- [ ] 01-04-PLAN.md — Chart display (4×4 grid) and psychological profile card (Wave 3)
 **UI hint**: yes
 
 ### Phase 2: Claude Integration + Path Generation
@@ -76,7 +81,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation + Tử Vi Engine | 0/? | Not started | - |
+| 1. Foundation + Tử Vi Engine | 0/4 | Planned | - |
 | 2. Claude Integration + Path Generation | 0/? | Not started | - |
 | 3. Grief System + Archive | 0/? | Not started | - |
 | 4. UI Polish + Demo Hardening | 0/? | Not started | - |
