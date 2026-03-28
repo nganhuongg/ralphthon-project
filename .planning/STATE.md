@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 02-01-PLAN.md
-last_updated: "2026-03-28T14:32:55.089Z"
+stopped_at: Completed 02-02-PLAN.md
+last_updated: "2026-03-28T16:04:07Z"
 last_activity: 2026-03-28
 progress:
   total_phases: 4
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-03-28)
 ## Current Position
 
 Phase: 02 (claude-integration-path-generation) — EXECUTING
-Plan: 2 of 3
+Plan: 3 of 3
 Status: Ready to execute
 Last activity: 2026-03-28
 
@@ -80,6 +80,8 @@ Recent decisions affecting current work:
 - [Phase 01-foundation-t-vi-engine]: PsychProfile renders profile prose strings directly — raw star names never appear in JSX
 - [Phase 02-claude-integration-path-generation]: ai SDK v6 uses maxOutputTokens and toTextStreamResponse — corrected from plan spec which referenced older SDK API
 - [Phase 02-claude-integration-path-generation]: generate-node grief modifier injected into system prompt (not user prompt) — keeps archetype framing cohesive
+- [Phase 02-claude-integration-path-generation]: Three useCompletion instances (one per path) owned by PathTreeView — parallel streaming of all three paths on initial reveal
+- [Phase 02-claude-integration-path-generation]: Node commit uses useEffect + prevLoading ref pattern — @ai-sdk/react v3 does not expose reliable onFinish callback
 
 ### Pending Todos
 
@@ -91,6 +93,6 @@ None — D-13 gate cleared (chart verified against reference by user). Phase 2 m
 
 ## Session Continuity
 
-Last session: 2026-03-28T14:32:55.086Z
-Stopped at: Completed 02-01-PLAN.md
+Last session: 2026-03-28T16:04:07Z
+Stopped at: Completed 02-02-PLAN.md
 Resume file: None

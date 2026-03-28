@@ -49,7 +49,7 @@ Plans:
 **Plans**: 3 plans
 Plans:
 - [x] 02-01-PLAN.md — generate-node streaming API route with grief context injection (Wave 1)
-- [ ] 02-02-PLAN.md — PathColumn and PathTreeView UI components (Wave 2)
+- [x] 02-02-PLAN.md — PathColumn and PathTreeView UI components (Wave 2)
 - [ ] 02-03-PLAN.md — Page wiring, parallel root generation, .env.local scaffold (Wave 3)
 **UI hint**: yes
 
@@ -86,6 +86,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation + Tử Vi Engine | 4/4 | Complete   | 2026-03-28 |
-| 2. Claude Integration + Path Generation | 0/3 | Not started | - |
+| 2. Claude Integration + Path Generation | 2/3 | Executing | - |
 | 3. Grief System + Archive | 0/? | Not started | - |
 | 4. UI Polish + Demo Hardening | 0/? | Not started | - |
