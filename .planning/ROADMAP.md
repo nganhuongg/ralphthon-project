@@ -67,7 +67,7 @@ Plans:
 Plans:
 - [x] 03-01-PLAN.md — GriefInterviewOverlay + PathColumn abandon wiring (Wave 1)
 - [x] 03-02-PLAN.md — GriefArchiveSidebar component (Wave 1, parallel)
-- [ ] 03-03-PLAN.md — PathTreeView wiring + end-to-end checkpoint (Wave 2)
+- [x] 03-03-PLAN.md — PathTreeView wiring + end-to-end checkpoint (Wave 2)
 
 ### Phase 4: UI Polish + Demo Hardening
 **Goal**: The app is visually complete with the full Vietnamese lacquerware aesthetic and is hardened against the specific failure modes of a live 2-minute hackathon demo
