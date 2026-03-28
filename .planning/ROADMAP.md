@@ -13,7 +13,7 @@ Verse is built in four phases that mirror its technical dependency chain. The T�
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation + Tử Vi Engine** - Project scaffolding, TypeScript types, Zustand store shape, and the full Tử Vi calculation engine producing a verified chart output (completed 2026-03-28)
-- [ ] **Phase 2: Claude Integration + Path Generation** - Vercel AI SDK streaming wired to chart types, three archetypal path trees generated and interactable node-by-node
+- [x] **Phase 2: Claude Integration + Path Generation** - Vercel AI SDK streaming wired to chart types, three archetypal path trees generated and interactable node-by-node (completed 2026-03-28)
 - [ ] **Phase 3: Grief System + Archive** - Grief interview overlay, abandoned path persistence, grief context feeding back into remaining path generation, archive view
 - [ ] **Phase 4: UI Polish + Demo Hardening** - Full lacquerware aesthetic, incense smoke animations, ash fade, pre-generated fallback, reset URL, 1280×800 verification
 
@@ -86,6 +86,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation + Tử Vi Engine | 4/4 | Complete   | 2026-03-28 |
-| 2. Claude Integration + Path Generation | 2/3 | Executing | - |
+| 2. Claude Integration + Path Generation | 2/3 | Complete    | 2026-03-28 |
 | 3. Grief System + Archive | 0/? | Not started | - |
 | 4. UI Polish + Demo Hardening | 0/? | Not started | - |
