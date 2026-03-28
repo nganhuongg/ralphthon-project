@@ -12,7 +12,10 @@ Turn the moment someone doesn't know what to do with their life into a documente
 
 ### Validated
 
-(None yet — ship to validate)
+- Abandoning a path triggers a 3-question grief interview (Validated in Phase 3: grief-system-archive)
+- Grief from abandoned paths subtly influences narrative of remaining active paths (Validated in Phase 3: grief-system-archive)
+- All abandoned paths are stored in a session grief archive (localStorage) (Validated in Phase 3: grief-system-archive)
+- Grief archive view shows all abandoned paths this session (Validated in Phase 3: grief-system-archive)
 
 ### Active
 
@@ -21,10 +24,6 @@ Turn the moment someone doesn't know what to do with their life into a documente
 - [ ] Chart produces a psychological profile: dominant palace, risk star, relational pattern, ambition structure
 - [ ] Claude generates three divergent path timelines from the profile + decision, each representing an archetypal tension (duty, desire, transformation)
 - [ ] Each path is an interactive node tree — clicking a node generates the next prediction, max 5 nodes deep
-- [ ] Abandoning a path triggers a 3-question grief interview
-- [ ] Grief from abandoned paths subtly influences narrative of remaining active paths
-- [ ] All abandoned paths are stored in a session grief archive (localStorage)
-- [ ] Grief archive view shows all abandoned paths this session
 - [ ] UI: Vietnamese lacquerware aesthetic — deep red, gold, black, paper texture, altar scroll layout, incense smoke node branching, abandoned paths fade to ash, chosen path stays gold
 
 ### Out of Scope
@@ -84,4 +83,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-03-28 after Phase 2 completion*
+*Last updated: 2026-03-28 after Phase 3 completion*
