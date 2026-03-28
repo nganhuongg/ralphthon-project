@@ -26,7 +26,7 @@ export default function PathColumn({
   onExpand,
 }: PathColumnProps) {
   const pathState = useVerseStore((s) => s.paths[pathId]);
-  const abandonPath = useVerseStore((s) => s.abandonPath);
+  const setActiveInterview = useVerseStore((s) => s.setActiveInterview);
 
   // Guard: store may not have initialised yet
   if (!pathState) return null;
@@ -108,10 +108,7 @@ export default function PathColumn({
       {/* Abandon button (D-12) — only when path has nodes and is not abandoned */}
       {!pathState.isAbandoned && currentDepth > 0 && (
         <button
-          onClick={() => {
-            const firstNode = pathState.nodes[0];
-            abandonPath(pathId, currentDepth, firstNode?.content ?? '');
-          }}
+          onClick={() => setActiveInterview(pathId)}
           className="text-xs text-verse-paper/30 hover:text-verse-paper/60 tracking-widest uppercase transition-colors mt-2"
         >
           Abandon
