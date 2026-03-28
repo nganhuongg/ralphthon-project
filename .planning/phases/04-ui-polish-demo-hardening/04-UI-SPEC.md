@@ -36,7 +36,7 @@ Declared values (multiples of 4 only):
 
 | Token | Value | Usage |
 |-------|-------|-------|
-| xs | 4px | Icon gaps, depth dot spacing (`gap-1.5` ≈ 6px is acceptable for dot rows) |
+| xs | 4px | Icon gaps, depth dot spacing (`gap-1` = 4px or `gap-2` = 8px for dot rows — both valid) |
 | sm | 8px | Compact inline padding, button vertical padding |
 | md | 16px | Default element spacing, grid gaps within forms |
 | lg | 24px | Column gaps in the 3-column grid (`gap-6`), section headings to content |
@@ -59,13 +59,14 @@ Source: codebase audit of `app/layout.tsx`, `components/PathColumn.tsx`, `compon
 | Role | Size | Weight | Line Height | Class Example |
 |------|------|--------|-------------|---------------|
 | Body (node content) | 14px (`text-sm`) | 400 (regular) | 1.625 (`leading-relaxed`) | `text-sm leading-relaxed` |
-| Label (column headers, archive labels, button text) | 12px (`text-xs`) | 300–400 (light to regular) | 1.5 | `text-xs tracking-[0.4em] uppercase` |
+| Label (column headers, archive labels, button text) | 12px (`text-xs`) | 400 (regular) | 1.5 | `text-xs tracking-[0.4em] uppercase` |
 | Heading (form section title, grief question) | 18px (`text-lg`) | 300 (light) | 1.625 (`leading-relaxed`) | `text-lg leading-relaxed` |
 | Display (input form title "Begin", primary section headers) | 20px (`text-xl`) | 300 (light) | 1.2 | `text-xl font-light tracking-[0.2em] uppercase` |
 
 Notes:
 - Exactly 4 sizes: 12px, 14px, 18px, 20px.
-- Exactly 2 weights in practice: 300 (light) for headings and labels, 400 (regular) for body. Weight 600 (semibold) is reserved only for the submit button ("Cast Chart") to give it visual hierarchy.
+- Exactly 2 weights: 300 (light) for headings and display text, 400 (regular) for body and labels.
+- The "Cast Chart" submit button achieves visual hierarchy via `tracking-widest` + `uppercase` + `text-verse-gold` accent color — no third weight needed.
 - `tabular-nums` Tailwind utility applies to all numeric display elements (depth indicator, question counter "Question 1 of 3"). Add via `font-variant-numeric: tabular-nums` or `font-feature-settings: "tnum"`. Apply class `tabular-nums` — already available in Tailwind v3. Source: RESEARCH.md UI-06.
 - Vietnamese diacritics are supported by the Be Vietnam Pro `vietnamese` subset already loaded. No additional config needed.
 - Letter-spacing: `tracking-[0.4em]` for column headers, `tracking-widest` for button labels and metadata text. These are pre-existing — maintain them.
